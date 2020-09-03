@@ -1,0 +1,52 @@
+﻿Name,Pivot_Layout
+"ELC Plants Production","<RadPivotGrid ColumnWidth=""120"" EmptyValueString="""" ColumnGrandTotalsPosition=""None"" RowGrandTotalsPosition=""None"" RowsSubTotalsPosition=""None"" ColumnsSubTotalsPosition=""None"" AggregatesPosition=""Columns"" ShowFilterArea=""True"" Cursor=""Default"" TabIndex=""0"">
+  <RowGroupDescriptions>
+    <Telerik.Pivot.Core.PropertyGroupDescription PropertyName=""Processset"" ShowGroupsWithNoData=""False"" AutoShowSubTotals=""True"" SortOrder=""Descending"" CustomName="""">
+      <GroupComparer xsi:type=""Telerik.Pivot.Core.GroupNameComparer"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" />
+    </Telerik.Pivot.Core.PropertyGroupDescription>
+    <Telerik.Pivot.Core.PropertyGroupDescription PropertyName=""Scenario"" ShowGroupsWithNoData=""False"" AutoShowSubTotals=""True"" SortOrder=""Ascending"" CustomName="""">
+      <GroupComparer xsi:type=""Telerik.Pivot.Core.GroupNameComparer"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" />
+    </Telerik.Pivot.Core.PropertyGroupDescription>
+    <Telerik.Pivot.Core.PropertyGroupDescription PropertyName=""Sow"" ShowGroupsWithNoData=""False"" AutoShowSubTotals=""True"" SortOrder=""Ascending"" CustomName="""">
+      <GroupComparer xsi:type=""Telerik.Pivot.Core.GroupNameComparer"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" />
+    </Telerik.Pivot.Core.PropertyGroupDescription>
+  </RowGroupDescriptions>
+  <ColumnGroupDescriptions>
+    <Telerik.Pivot.Core.PropertyGroupDescription PropertyName=""Period"" ShowGroupsWithNoData=""False"" AutoShowSubTotals=""True"" SortOrder=""Ascending"" CustomName="""">
+      <GroupComparer xsi:type=""Telerik.Pivot.Core.GroupNameComparer"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" />
+    </Telerik.Pivot.Core.PropertyGroupDescription>
+  </ColumnGroupDescriptions>
+  <AggregateDescriptions>
+    <Telerik.Pivot.Core.PropertyAggregateDescription PropertyName=""Pv"" AggregateFunction=""Sum"" IgnoreNullValues=""False"" StringFormat="""" CustomName="""" />
+  </AggregateDescriptions>
+  <FilterDescriptions>
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""Timeslice"" CustomName="""" />
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""Vintage"" CustomName="""" />
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""Attribute"" CustomName="""" />
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""ModelName"" CustomName="""" />
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""StudyName"" CustomName="""" />
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""UserName"" CustomName="""" />
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""Process"" CustomName="""" />
+    <Telerik.Pivot.Core.PropertyFilterDescription PropertyName=""Region"" CustomName="""" />
+  </FilterDescriptions>
+  <LayoutState>
+    <Sizes>
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2005|Columns root|$COLUMNS$"" Value=""36"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2006|Columns root|$COLUMNS$"" Value=""36"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2010|Columns root|$COLUMNS$"" Value=""37"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2015|Columns root|$COLUMNS$"" Value=""37"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2020|Columns root|$COLUMNS$"" Value=""37"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2025|Columns root|$COLUMNS$"" Value=""37"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2030|Columns root|$COLUMNS$"" Value=""36"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2035|Columns root|$COLUMNS$"" Value=""36"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2040|Columns root|$COLUMNS$"" Value=""36"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2045|Columns root|$COLUMNS$"" Value=""36"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStatePair Key=""2050|Columns root|$COLUMNS$"" Value=""36"" />
+    </Sizes>
+    <RowHeaderSizes>
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStateIntPair Key=""0"" Value=""97"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStateIntPair Key=""1"" Value=""122"" />
+      <Telerik.WinControls.UI.PivotGridExport.PivotLayoutStateIntPair Key=""2"" Value=""63"" />
+    </RowHeaderSizes>
+  </LayoutState>
+</RadPivotGrid>"
